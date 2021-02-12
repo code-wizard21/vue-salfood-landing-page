@@ -1,0 +1,93 @@
+.food {
+    width: 30%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.07);
+    margin-bottom: 2.75rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    .food-image {
+        background-size: cover;
+        background-position: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .food-description {
+        padding: .8rem 1rem;
+
+        .name-and-price {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h3 {
+                color: #0B6968;
+                font-weight: 700;
+                font-size: 20px;
+            }
+
+            h4 {
+                color: #F66530;
+                font-size: 18px;
+            }
+        }
+
+        p.description {
+            width: 70%;
+            font-size: 13px;
+            color: #0B6968;
+            margin: .55rem 0 .7rem;
+        }
+
+        button {
+            border: none;
+            color: #fff;
+            background: #F66530;
+            font-weight: 600;
+            padding: .4rem 1rem;
+            border-bottom-right-radius: 10px; 
+            cursor: pointer;
+            margin-top: .5rem;
+            transition: all 200ms ease;
+
+            &:hover {
+                background: #f88f68;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 991px ) {
+    .food {
+        width: 100%;
+        margin-bottom: 1.5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .food-description {
+            .name-and-price {
+    
+                h3 {
+                    font-size: 18px;
+                }
+    
+                h4 {
+                    font-size: 17px;
+                }
+            }
+    
+            p.description {
+                width: 75%;
+                margin: .55rem 0 .7rem;
+            }
+        }
+    }
+}

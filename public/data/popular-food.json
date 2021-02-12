@@ -1,0 +1,17 @@
+[
+    {
+        "foodImage": "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "foodName": "Cooked Food",
+        "desc": "Excepteur dolore dolore laborum ad do consequat sint Lorem id sit aliquip eu cillum." 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Baking Cheese Cooking",
+        "desc": "Excepteur dolore dolore laborum ad do consequat sint Lorem id sit aliquip eu cillum." 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "foodName": "Tomato Food",
+        "desc": "Excepteur dolore dolore laborum ad do consequat sint Lorem id sit aliquip eu cillum." 
+    }
+]

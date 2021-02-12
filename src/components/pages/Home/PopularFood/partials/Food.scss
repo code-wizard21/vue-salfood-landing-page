@@ -1,0 +1,59 @@
+.food {
+    width: 29.8%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+
+    .food-desc {
+        background: rgba(11, 105, 104, 0.85);
+        color: #fff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 1rem;
+
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 13px;
+            margin-top: 4px;
+        }
+
+        button {
+            float: right;
+            margin-top: 1.3rem;
+            background: #F66530;
+            color: #fff;
+            border: none;
+            padding: .35rem .8rem;
+            font-weight: 600;
+            font-size: 13.4px;
+            cursor: pointer;
+            border-bottom-right-radius: 14px; 
+            transition: all 200ms ease;
+
+            &:hover {
+                background: #f88f68;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 991px ) {
+    .food {
+        width: 100%;
+        margin-bottom: 1.5rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

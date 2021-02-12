@@ -1,0 +1,143 @@
+.contact-us-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .contact-us {
+        padding: 3rem 0;
+        width: 65%;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba( 255, 255, 255, 0.50 );
+        backdrop-filter: blur( 9.0px );
+        -webkit-backdrop-filter: blur( 9.0px );
+        border-radius: 10px;
+        z-index: 9999;
+
+        form {
+            width: 60%;
+            margin-top: 2rem;
+
+            .form-group {
+                width: 100%;
+                margin-bottom: 1.25rem;
+
+                input, textarea {
+                    width: 100%;
+                    background: #fff;
+                    border: none;
+                    box-shadow: 0px 4px 20px rgba(246 ,101, 48, 0.1);
+                    font-size: 14.7px;
+                    padding: .7rem 1rem;
+                    color: #0B6968;
+
+                    &::placeholder {
+                        color: #0B6968;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    } 
+                }
+
+                textarea {
+                    height: 200px;
+                }
+
+                button {
+                    background: #F66530;
+                    border: none;
+                    color: #fff;
+                    font-size: 15px;
+                    border-radius: 3px;
+                    font-weight: 700;
+                    padding: .3rem 1.5rem;
+                    box-shadow: 0px 0px 7px rgba(0 ,0 , 0, 0.1);
+                    cursor: pointer;
+                    transition: all 200ms ease;
+
+                    &:hover {
+                        background: #f88f68;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .circle1 {
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        background: #F66530;
+        border-radius: 70px;
+        top: 30px;
+        left: 130px;
+    }
+
+    .circle2 {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: #F66530;
+        border-radius: 150px;
+        bottom: 50px;
+        right: 100px;
+    }
+}
+
+@media screen and ( max-width: 991px ) {
+    .contact-us-wrapper {
+    
+        .contact-us {
+            padding: 1.75rem 0;
+            width: 100%;
+
+            form {
+                width: 80%;
+                margin-top: 1.5rem;
+    
+                .form-group {
+                    width: 100%;
+                    margin-bottom: 1.25rem;
+    
+                    input, textarea {
+                        font-size: 14px;
+                        padding: .65rem 1rem;
+                    }
+    
+                    textarea {
+                        height: 175px;
+                    }
+
+                    button {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .circle1 {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            top: 30px;
+            left: -50px;
+        }
+    
+        .circle2 {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            bottom: 30px;
+            right: -40px;
+        }
+    }
+}

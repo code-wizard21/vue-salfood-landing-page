@@ -1,0 +1,38 @@
+[
+    {
+        "foodImage": "https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Cooked Food in Stainless Steel Plate",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 9.0 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "foodName": "Indian Soup With Delicious Sauce",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 15.0 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/98873/pexels-photo-98873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Close Up of Food in White Plate",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 10.0 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/2313682/pexels-photo-2313682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Seafood Delicacy on Bowl",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 27.5 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/3323687/pexels-photo-3323687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Top View Photo of Vegetable Salad",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 3.7 
+    },
+    {
+        "foodImage": "https://images.pexels.com/photos/2297961/pexels-photo-2297961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "foodName": "Plate of Yellow Food With Green Relish",
+        "desc": "Quis laborum nostrud cupidatat minim ipsum nisi sit dolor.",
+        "price": 13.0 
+    }
+]

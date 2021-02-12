@@ -1,0 +1,11 @@
+.food-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFAF7;
+}
+
+@media screen and ( max-width: 991px ) {
+    .food-wrapper {
+        flex-direction: column;
+    }
+}

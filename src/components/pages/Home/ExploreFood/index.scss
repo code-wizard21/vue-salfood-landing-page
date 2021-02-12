@@ -1,0 +1,51 @@
+.explore-food-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 4.5rem;
+}
+
+.more-button {
+    text-align: center;
+
+    button {
+        background: #F66530;
+        color: #fff;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        padding: .5rem 2.3rem;
+        border-radius: 40px;
+        margin-top: 1.75rem;
+        cursor: pointer;
+        transition: all 200ms ease;
+
+        &:hover {
+            background: #f88f68;
+        }
+        
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+@media screen and ( max-width: 991px ) {
+    .explore-food-wrapper {
+        flex-direction: column;
+        padding: unset;
+    }
+    
+    .more-button {
+    
+        button {
+            font-weight: 600;
+            font-size: 14px;
+            padding: .4rem 2rem;
+            border-radius: 35px;
+            
+            margin-top: 2rem;
+        }
+    }
+}

@@ -1,0 +1,113 @@
+.footer {
+    background: #0B6968;
+    color: #fff;
+    padding: 1.5rem 4rem;
+    display: flex;
+    flex-direction: column;
+
+    .section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h3 {
+            font-size: 23px;
+        }
+
+        .icon-socmed {
+            width: 18px;
+            margin-left: 15px;
+            color: #fff;
+            transition: 200ms ease;
+
+            &:hover {
+                color: #ccc;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            color: #eee;
+            font-size: 14px;
+        }
+    }
+
+    p {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 14px;
+        margin-top: 9px;
+        color: #eee;
+
+        span.role {
+            margin-left: 6px;
+        }
+
+        span.material-icons {
+            font-size: 14px;
+            color: #fff;
+            margin: 0 5px;
+        }
+
+        a {
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 3px;
+            transition: 200ms ease;
+
+            &:hover {
+                color: #ccc;
+            }
+        }
+    }
+}
+
+@media screen and ( max-width: 991px ) {
+    .footer {
+        padding: 1.5rem 1rem;
+    
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            h3 {
+                font-size: 22px;
+            }
+    
+            .icon-socmed {
+                width: 18px;
+                margin: .4rem 2.5px 0;
+            }
+    
+            p {
+                margin-top: 10px;
+                color: #eee;
+                font-size: 13px;
+            }
+        }
+    
+        p {
+            flex-direction: column;
+            justify-content: center;
+            font-size: 13px;
+            margin-top: 25px;
+
+            span.role {
+                margin-top: 3px;
+                margin-left: 0;
+                display: flex;
+                align-items: center;
+            }
+            
+            span.material-icons {
+                font-size: 14px;
+                margin: 0 4.2px;
+            }
+        }
+    }
+}
