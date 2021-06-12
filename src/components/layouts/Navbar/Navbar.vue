@@ -53,9 +53,9 @@ export default {
             this.changeNavBackground =  ( window.scrollY >= 70 ) ? true : false;
         },
         toggleSidebar: function() {
-            this.sidebarIsOpen = !this.sidebarIsOpen;
+            this.sidebarIsOpen = this.sidebarIsOpen == true ? true : false;
 
-            if( this.sidebarIsOpen ) {
+            if( this.sidebarIsOpen == true ) {
                 this.$refs['nav-links'].classList.contains('sidebar-closed') ? this.$refs['nav-links'].classList.remove('sidebar-closed') : ''; 
                 this.$refs['nav-links'].classList.add('sidebar-open');
                 this.$refs['hamburger'].classList.add('position-to-cross');
