@@ -61,7 +61,7 @@ export default {
                 this.$refs['hamburger'].classList.add('position-to-cross');
                 this.sidebarIsOpen = !this.sidebarIsOpen;
             } else {
-                this.$refs['nav-links'].classList.contains('sidebar-open') ? this.$refs['nav-links'].classList.remove('sidebar-closed') : ''; 
+                this.$refs['nav-links'].classList.contains('sidebar-open') ? this.$refs['nav-links'].classList.remove('sidebar-open') : ''; 
                 this.$refs['nav-links'].classList.add('sidebar-closed');
                 this.$refs['hamburger'].classList.remove('position-to-cross');
                 this.sidebarIsOpen = !this.sidebarIsOpen;
